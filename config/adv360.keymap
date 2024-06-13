@@ -58,7 +58,7 @@
 
         base {
             bindings = <
-&none  &kp N1  &kp N2              &kp N3          &kp N4          &kp N5  &none                                                                     &mo 3        &kp N6  &kp N7           &kp N8           &kp N9               &kp N0     &none
+&none  &kp N1  &kp N2              &kp N3          &kp N4          &kp N5  &none                                                                     &none        &kp N6  &kp N7           &kp N8           &kp N9               &kp N0     &none
 &none  &kp Q   &hm LEFT_CONTROL W  &hm F LEFT_ALT  &hm LEFT_GUI P  &kp B   &none                                                                     &none        &kp J   &hm RIGHT_GUI L  &hm RIGHT_ALT U  &hm RIGHT_CONTROL Y  &kp SEMI   &none
 &none  &kp A   &lt 1 R             &lt 2 S         &lt 3 T         &kp G   &none            &none        &none       &none              &none        &none        &kp M   &lt 3 N          &lt 2 E          &lt 1 I              &kp O      &none
 &none  &kp Z   &kp X               &kp C           &kp D           &kp V                                 &none       &none                                        &kp K   &kp H            &kp COMMA        &kp DOT              &kp SLASH  &none
