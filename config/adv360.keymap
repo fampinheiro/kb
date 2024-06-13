@@ -57,11 +57,11 @@
 
         base {
             bindings = <
-&none      &none       &none           &none               &none             &none  &none                                                                &mo 5        &none  &none              &none                &none       &none            &none
-&none      &kp Q       &kp W           &kp F               &kp P             &kp B  &none                                                                &none        &kp J  &kp L              &kp U                &kp Y       &kp SEMI         &none
-&none      &hm LGUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G  &none            &none         &none           &none    &none        &none        &kp M  &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm I RALT  &hm RIGHT_GUI O  &none
-&kp LSHFT  &kp Z       &kp X           &kp C               &kp D             &kp V                                 &none           &none                              &kp K  &kp H              &kp COMMA            &kp DOT     &kp SLASH        &kp RSHFT
-&mo 2      &none       &none           &none               &none                    &lt 2 BACKSPACE  &lt 4 DELETE  &kp ESCAPE      &kp TAB  &lt 3 ENTER  &lt 1 SPACE         &none              &none                &none       &none            &mo 2
+&none      &kp N1      &kp N2          &kp N3              &kp N4            &kp N5  &none                                                                &mo 5        &kp N6  &kp N7             &kp N8               &kp N9      &kp N0           &none
+&none      &kp Q       &kp W           &kp F               &kp P             &kp B   &none                                                                &none        &kp J   &kp L              &kp U                &kp Y       &kp SEMI         &none
+&none      &hm LGUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G   &none            &none         &none           &none    &none        &none        &kp M   &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm I RALT  &hm RIGHT_GUI O  &none
+&kp LSHFT  &kp Z       &kp X           &kp C               &kp D             &kp V                                  &none           &none                              &kp K   &kp H              &kp COMMA            &kp DOT     &kp SLASH        &kp RSHFT
+&mo 2      &none       &none           &none               &none                     &lt 2 BACKSPACE  &lt 4 DELETE  &kp ESCAPE      &kp TAB  &lt 3 ENTER  &lt 1 SPACE          &none              &none                &none       &none            &mo 2
             >;
         };
 
