@@ -58,11 +58,11 @@
 
         base {
             bindings = <
-&none  &kp N1  &kp N2              &kp N3          &kp N4          &kp N5  &none                                                                         &none                &kp N6  &kp N7           &kp N8           &kp N9               &kp N0     &none
-&none  &kp Q   &hm LEFT_CONTROL W  &hm F LEFT_ALT  &hm LEFT_GUI P  &kp B   &none                                                                         &none                &kp J   &hm RIGHT_GUI L  &hm RIGHT_ALT U  &hm RIGHT_CONTROL Y  &kp SEMI   &none
-&none  &kp A   &lt 3 R             &lt 2 S         &lt 1 T         &kp G   &none                   &none       &none       &none              &none      &none                &kp M   &lt 1 N          &lt 2 E          &lt 3 I              &kp O      &none
-&none  &kp Z   &kp X               &kp C           &kp D           &kp V                                       &none       &none                                              &kp K   &kp H            &kp COMMA        &kp DOT              &kp SLASH  &none
-&none  &none   &none               &none           &none                   &mt LEFT_GUI BACKSPACE  &kp DELETE  &ls_cw      &kp RIGHT_CONTROL  &kp ENTER  &mt RIGHT_GUI SPACE          &none            &none            &none                &none      &none
+&none  &kp N1   &kp N2              &kp N3          &kp N4          &kp N5  &none                                                                         &none                &kp N6  &kp N7           &kp N8           &kp N9               &kp N0     &none
+&none  &lt 3 Q  &hm LEFT_CONTROL W  &hm F LEFT_ALT  &hm LEFT_GUI P  &kp B   &none                                                                         &none                &kp J   &hm RIGHT_GUI L  &hm RIGHT_ALT U  &hm RIGHT_CONTROL Y  &kp SEMI   &none
+&none  &kp A    &lt 3 R             &lt 2 S         &lt 1 T         &kp G   &none                   &none       &none       &none              &none      &none                &kp M   &lt 1 N          &lt 2 E          &lt 3 I              &kp O      &none
+&none  &kp Z    &kp X               &kp C           &kp D           &kp V                                       &none       &none                                              &kp K   &kp H            &kp COMMA        &kp DOT              &kp SLASH  &none
+&none  &none    &none               &none           &none                   &mt LEFT_GUI BACKSPACE  &kp DELETE  &ls_cw      &kp RIGHT_CONTROL  &kp ENTER  &mt RIGHT_GUI SPACE          &none            &none            &none                &none      &none
             >;
         };
 
@@ -88,11 +88,11 @@
 
         mod {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none         &none         &bootloader                                            &bootloader             &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
+&none  &none  &none  &none  &none       &none  &none                                        &trans           &none         &none         &none         &none         &none         &none
+&none  &none  &none  &none  &none       &none  &bootloader                                  &bootloader      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
+&none  &none  &none  &none  &none       &none  &none        &none  &none      &none  &none  &none            &none         &bl BL_OFF    &bl BL_INC    &bl BL_DEC    &bl BL_OFF    &none
+&none  &none  &none  &none  &macro_ver  &none                      &none      &none                          &none         &none         &none         &none         &none         &none
+&none  &none  &none  &none  &none              &bt BT_CLR   &none  &none      &none  &none  &rgb_ug RGB_TOG                &none         &none         &none         &none         &none
             >;
         };
     };
