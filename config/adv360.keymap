@@ -58,21 +58,21 @@
 
         base {
             bindings = <
-&none  &kp N1   &kp N2              &kp N3          &kp N4          &kp N5  &none                                                                         &none                &kp N6  &kp N7           &kp N8           &kp N9               &kp N0     &none
-&none  &lt 3 Q  &hm LEFT_CONTROL W  &hm F LEFT_ALT  &hm LEFT_GUI P  &kp B   &none                                                                         &none                &kp J   &hm RIGHT_GUI L  &hm RIGHT_ALT U  &hm RIGHT_CONTROL Y  &kp SEMI   &none
-&none  &kp A    &lt 3 R             &lt 2 S         &lt 1 T         &kp G   &none                   &none       &none       &none              &none      &none                &kp M   &lt 1 N          &lt 2 E          &lt 3 I              &kp O      &none
-&none  &kp Z    &kp X               &kp C           &kp D           &kp V                                       &none       &none                                              &kp K   &kp H            &kp COMMA        &kp DOT              &kp SLASH  &none
-&none  &none    &none               &none           &none                   &mt LEFT_GUI BACKSPACE  &kp DELETE  &ls_cw      &kp RIGHT_CONTROL  &kp ENTER  &mt RIGHT_GUI SPACE          &none            &none            &none                &none      &none
+&none  &kp N1            &kp N2              &kp N3          &kp N4   &kp N5  &none                                               &none  &kp N6  &kp N7   &kp N8               &kp N9                    &kp N0             &none
+&none  &lt 3 Q           &kp W               &kp F           &kp P    &kp B   &none                                               &none  &kp J   &kp L    &kp U                &kp Y                     &kp SEMI           &none
+&none  &mt LEFT_SHIFT A  &lt 3 R             &lt 2 S         &lt 1 T  &kp G   &none   &none          &none      &none  &none      &none  &kp M   &lt 1 N  &lt 2 E              &lt 3 I                   &mt RIGHT_SHIFT O  &none
+&none  &kp Z             &mt LEFT_CONTROL X  &mt C LEFT_ALT  &kp D    &kp V                          &none      &none                    &kp K   &kp H    &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH          &none
+&none  &none             &none               &none           &none            &ls_cw  &kp BACKSPACE  &none      &none  &kp SPACE  &none          &none    &none                &none                     &none              &none
             >;
         };
 
         symbols {
             bindings = <
-&none  &none             &none           &none             &none              &none        &none                                  &none  &none      &none            &none              &none                 &none                  &none
-&none  &kp EXCLAMATION   &kp AT_SIGN     &kp POUND         &kp DOLLAR         &kp PERCENT  &none                                  &none  &kp CARET  &kp AMPERSAND    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE    &none  &none  &none      &none  &none  &none  &kp TILDE  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT         &kp RIGHT_GUI          &none
-&none  &kp K_UNDO        &kp K_CUT       &kp K_COPY        &kp K_PASTE        &none                      &none      &none                &none      &kp SQT          &kp DOUBLE_QUOTES  &kp BACKSLASH         &kp PIPE               &none
-&none  &none             &none           &none             &none                           &none  &none  &none      &none  &none  &none             &none            &none              &none                 &none                  &none
+&trans  &trans            &trans          &trans            &trans             &trans       &trans                                      &trans  &trans     &trans           &trans             &trans                &trans                 &trans
+&trans  &kp EXCLAMATION   &kp AT_SIGN     &kp POUND         &kp DOLLAR         &kp PERCENT  &trans                                      &trans  &kp CARET  &kp AMPERSAND    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE    &trans  &trans  &trans      &trans  &trans  &trans  &kp TILDE  &sk RIGHT_SHIFT  &sk RIGHT_CONTROL  &sk RIGHT_ALT         &sk RIGHT_GUI          &trans
+&trans  &kp K_UNDO        &kp K_CUT       &kp K_COPY        &kp K_PASTE        &trans                       &trans      &trans                  &trans     &kp SQT          &kp DOUBLE_QUOTES  &kp BACKSLASH         &kp PIPE               &trans
+&trans  &trans            &trans          &trans            &trans                          &trans  &trans  &trans      &trans  &trans  &trans             &trans           &trans             &trans                &trans                 &trans
             >;
         };
 
