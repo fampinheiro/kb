@@ -59,10 +59,10 @@
         base {
             bindings = <
 &none  &kp N1            &kp N2              &kp N3          &kp N4   &kp N5  &none                                                  &none        &kp N6  &kp N7   &kp N8               &kp N9                    &kp N0             &none
-&none  &lt 4 Q           &kp W               &kp F           &kp P    &kp B   &none                                                  &none        &kp J   &kp L    &kp U                &kp Y                     &lt 4 SEMICOLON    &none
-&none  &mt LEFT_SHIFT A  &lt 4 R             &lt 3 S         &lt 1 T  &kp G   &none          &none   &none      &none  &none         &none        &kp M   &lt 2 N  &lt 3 E              &lt 4 I                   &mt RIGHT_SHIFT O  &none
+&none  &lt 5 Q           &kp W               &kp F           &kp P    &kp B   &none                                                  &none        &kp J   &kp L    &kp U                &kp Y                     &lt 5 SEMICOLON    &none
+&none  &mt LEFT_SHIFT A  &lt 5 R             &lt 4 S         &lt 1 T  &kp G   &none          &none   &none      &none  &none         &none        &kp M   &lt 2 N  &lt 4 E              &lt 5 I                   &mt RIGHT_SHIFT O  &none
 &none  &kp Z             &mt LEFT_CONTROL X  &mt C LEFT_ALT  &kp D    &kp V                          &none      &none                             &kp K   &kp H    &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH          &none
-&none  &none             &none               &none           &none            &kp BACKSPACE  &ls_cw  &none      &none  &kp LEFT_GUI  &lt 0 SPACE          &none    &none                &none                     &none              &none
+&none  &none             &none               &none           &none            &kp BACKSPACE  &ls_cw  &none      &none  &kp LEFT_GUI  &lt 5 SPACE          &none    &none                &none                     &none              &none
             >;
         };
 
@@ -86,7 +86,17 @@
             >;
         };
 
-        navigation {
+        num {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        nav {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans          &trans          &trans        &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans          &trans          &trans        &trans           &trans
@@ -113,16 +123,6 @@
 &none  &none  &none  &none  &none       &none  &none        &none  &none      &none  &none  &none            &none         &bl BL_OFF    &bl BL_INC    &bl BL_DEC    &bl BL_OFF    &none
 &none  &none  &none  &none  &macro_ver  &none                      &none      &none                          &none         &none         &none         &none         &none         &none
 &none  &none  &none  &none  &none              &bt BT_CLR   &none  &none      &none  &none  &rgb_ug RGB_TOG                &none         &none         &none         &none         &none
-            >;
-        };
-
-        num {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
