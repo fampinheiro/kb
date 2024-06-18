@@ -66,7 +66,7 @@
             >;
         };
 
-        lsym {
+        sym0 {
             bindings = <
 &trans  &trans     &trans        &trans         &trans  &trans  &trans                                      &trans  &trans     &trans          &trans         &trans             &trans      &trans
 &trans  &trans     &trans        &trans         &trans  &trans  &trans                                      &trans  &trans     &kp UNDERSCORE  &kp PIPE       &kp SINGLE_QUOTE   &trans      &trans
@@ -76,7 +76,7 @@
             >;
         };
 
-        rsym {
+        sym1 {
             bindings = <
 &trans  &trans          &trans           &trans                &trans                 &trans         &trans                                      &trans  &trans  &trans  &trans     &trans    &trans       &trans
 &trans  &trans          &kp COLON        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &trans                                      &trans  &trans  &trans  &trans     &trans    &trans       &trans
