@@ -44,12 +44,17 @@
 
         CB_ESC {
             bindings = <&kp ESCAPE>;
-            key-positions = <17 16>;
+            key-positions = <32 30>;
         };
 
         CB_TAB {
             bindings = <&kp TAB>;
-            key-positions = <24 25>;
+            key-positions = <31 32>;
+        };
+
+        CB_ENTER {
+            bindings = <&kp ENTER>;
+            key-positions = <41 42>;
         };
     };
 
@@ -58,11 +63,11 @@
 
         base {
             bindings = <
-&none  &kp N1            &kp N2              &kp N3          &kp N4   &kp N5  &none                                                              &none        &kp N6  &kp N7   &kp N8               &kp N9                    &kp N0             &none
-&none  &lt 5 Q           &kp W               &kp F           &kp P    &kp B   &none                                                              &none        &kp J   &kp L    &kp U                &kp Y                     &lt 5 SEMICOLON    &none
-&none  &hm LEFT_SHIFT A  &lt 5 R             &lt 4 S         &lt 1 T  &kp G   &none          &none   &none      &none  &none                     &none        &kp M   &lt 2 N  &lt 4 E              &lt 5 I                   &hm RIGHT_SHIFT O  &none
-&none  &kp Z             &mt LEFT_CONTROL X  &mt LEFT_ALT C  &kp D    &kp V                          &none      &none                                         &kp K   &kp H    &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH          &none
-&none  &none             &none               &none           &none            &kp BACKSPACE  &ls_cw  &none      &none  &kp LS(LA(LEFT_CONTROL))  &lt 5 SPACE          &none    &none                &none                     &none              &none
+&none  &kp N1            &kp N2              &kp N3          &kp N4   &kp N5  &none                                                                        &none        &kp N6  &kp N7   &kp N8               &kp N9                    &kp N0             &none
+&none  &lt 5 Q           &kp W               &kp F           &kp P    &kp B   &none                                                                        &none        &kp J   &kp L    &kp U                &kp Y                     &lt 5 SEMICOLON    &none
+&none  &hm LEFT_SHIFT A  &lt 5 R             &lt 4 S         &lt 1 T  &kp G   &none          &none           &none      &none  &none                       &none        &kp M   &lt 2 N  &lt 4 E              &lt 5 I                   &hm RIGHT_SHIFT O  &none
+&none  &kp Z             &mt LEFT_CONTROL X  &mt LEFT_ALT C  &kp D    &kp V                                  &none      &none                                           &kp K   &kp H    &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL PERIOD  &kp SLASH          &none
+&none  &none             &none               &none           &none            &kp BACKSPACE  &kp LEFT_SHIFT  &none      &none  &lt 1 LS(LA(LC(LEFT_GUI)))  &lt 5 SPACE          &none    &none                &none                     &none              &none
             >;
         };
 
