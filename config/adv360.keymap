@@ -49,12 +49,12 @@
 
         CB_LGUI {
             bindings = <&kp LEFT_GUI>;
-            key-positions = <65 66>;
+            key-positions = <70 69>;
         };
 
         CB_ESCAPE {
             bindings = <&kp ESCAPE>;
-            key-positions = <69 70>;
+            key-positions = <65 66>;
         };
     };
 
@@ -83,11 +83,11 @@
 
         num {
             bindings = <
-&trans  &trans     &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &kp N6  &kp N5  &kp N4  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp CARET  &kp N3  &kp N2  &kp N1  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp TILDE  &kp N9  &kp N8  &kp N7  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans  &trans          &kp N0  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans     &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp N6  &kp N5  &kp N4  &kp MINUS  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp CARET  &kp N3  &kp N2  &kp N1  &kp PLUS   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp TILDE  &kp N9  &kp N8  &kp N7  &kp EQUAL                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans             &kp N0  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
